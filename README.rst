@@ -25,12 +25,12 @@ Features
 * Get config from device (i.e. trigger backup and then download config)
 
 Usage
------
+::
 
-        import pyunimus
-        logging.info("Connecting to Unimus...")
-        u = pyunimus.Unimus(UNIMUS_HOST, UNIMUS_TOKEN)
-        devices = u.devices()
+    import pyunimus
+    logging.info("Connecting to Unimus...")
+    u = pyunimus.Unimus(UNIMUS_HOST, UNIMUS_TOKEN)
+    devices = u.devices()
 
 
 Credits
